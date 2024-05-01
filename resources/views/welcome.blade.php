@@ -21,23 +21,23 @@
     <div id="app">
 
         <nav
-            class="bg-white px-2 sm:px-4 py-2.5 w-full dark:bg-gray-900 fixed z-20 top-0 left-0 border-gray-200 dark:border-gray-600">
+            class="bg-white px-2 sm:px-4 py-2.5 w-full  fixed z-20 top-0 left-0 border-gray-200 ">
             <div class="container max-w-6xl flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://hudder.ir/" class="flex items-center">
                     {{-- <img src="{{ asset('images/frontpage/logo.webp') }}" class="h-5 ml-3 sm:h-9" alt="Hudder Logo"> --}}
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white ">ستارا</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap ">ستارا</span>
                 </a>
                 <div class="flex md:order-2 gap-2">
                     <a href="https://hub.hudder.ir" target="_blank"
-                        class="hidden md:block text-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">ورود</a>
+                        class="hidden md:block text-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">ورود</a>
                     <button type="button"
-                        class="hidden md:block text-gray-700 border-2 border-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">تماس
+                        class="hidden md:block text-gray-700 border-2 border-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">تماس
                         با فروش</button>
 
                     <a href="#live-preview"
-                        class=" bg-yellow-300 text-gray-800 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">پیش‌نمایش</a>
+                        class=" bg-yellow-300 text-gray-800 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">پیش‌نمایش</a>
                     <button data-collapse-toggle="navbar-sticky" type="button"
-                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   "
                         aria-controls="navbar-sticky" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -50,37 +50,37 @@
                 </div>
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul
-                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:gap-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:gap-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white  md: ">
                         <li class="">
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+                                class="block py-2 pl-3 pr-4 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 "
                                 aria-current="page">خانه</a>
                         </li>
                         <li class="">
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">امنیت
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0     md::border-gray-700">امنیت
                                 و حریم شخصی</a>
                         </li>
                         <li class="">
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">تیم
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0     md::border-gray-700">تیم
                                 ما</a>
                         </li>
                         <li class="">
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">قیمت‌گذاری</a>
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0     md::border-gray-700">قیمت‌گذاری</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="mt-12 md:mt-0 max-w-6xl mx-auto flex dark:bg-gray-900 sm:items-center py-4 sm:pt-0  min-h-screen">
+        <div class="mt-12 md:mt-0 max-w-6xl mx-auto flex  sm:items-center py-4 sm:pt-0  min-h-screen">
 
-            <div class=" bg-white dark:bg-gray-800 overflow-hidden ">
+            <div class=" bg-white  overflow-hidden ">
                 <div class="grid grid-cols-1 md:grid-cols-2 items-center">
                     <div class="p-6">
                         <div class="">
-                            <div class=" text-gray-600 dark:text-gray-400 text-sm">
+                            <div class=" text-gray-600  text-sm">
                                 <h2 class="font-bold text-4xl text-black leading-relaxed bg-yellow-300 rounded p-3">
                                     استایلیست شخصی شما، در همین نزدیکی‌ها
                                 </h2>
@@ -89,10 +89,10 @@
                         </div>
                     </div>
 
-                    <div class="p-6 border-gray-200 dark:border-gray-700 ">
+                    <div class="p-6 border-gray-200  ">
 
                         <div class="">
-                            <div class=" text-gray-600 dark:text-gray-400 text-sm">
+                            <div class=" text-gray-600  text-sm">
                                 <img src="{{ asset('images/frontpage/section1.png') }}" alt="">
                             </div>
                         </div>
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="mt-12 bg-yellow-300 md:mt-0  mx-auto grid grid-cols-5 gap-1 dark:bg-gray-900 sm:items-center p-10 md:p-20"
+        <div class="mt-12 bg-yellow-300 md:mt-0  mx-auto grid grid-cols-5 gap-1  sm:items-center p-10 md:p-20"
             id="live-preview">
 
             <div
@@ -135,11 +135,11 @@
                             <p>کرمان، ایران</p>
                             <div>
                                 <span
-                                    class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">استایلیست
+                                    class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded  ">استایلیست
                                     شخصی</span>
 
                                 <span
-                                    class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">دستیار
+                                    class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded  ">دستیار
                                     خرید</span>
 
                             </div>
@@ -192,10 +192,10 @@
               "placeholder": "Select month",
               "viewport": "#single-datepicker-tab-preview-datepicker",
               "toggleTag": "<button type=\"button\"></button>",
-              "toggleClasses": "hs-select-disabled:pointer-events-none hs-select-disabled:opacity-50 relative flex text-nowrap w-full cursor-pointer text-start font-medium text-gray-800 hover:text-gray-600 focus:outline-none focus:text-gray-600 before:absolute before:inset-0 before:z-[1] dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-              "dropdownClasses": "mt-2 z-50 w-32 max-h-72 p-1 space-y-0.5 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 dark:bg-neutral-900 dark:border-neutral-700",
-              "optionClasses": "p-2 w-full text-sm text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:text-neutral-200 dark:focus:bg-neutral-800",
-              "optionTemplate": "<div class=\"flex justify-between items-center w-full\"><span data-title></span><span class=\"hidden hs-selected:block\"><svg class=\"flex-shrink-0 size-3.5 text-gray-800 dark:text-neutral-200\" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
+              "toggleClasses": "hs-select-disabled:pointer-events-none hs-select-disabled:opacity-50 relative flex text-nowrap w-full cursor-pointer text-start font-medium text-gray-800 hover:text-gray-600 focus:outline-none focus:text-gray-600 before:absolute before:inset-0 before:z-[1]   ",
+              "dropdownClasses": "mt-2 z-50 w-32 max-h-72 p-1 space-y-0.5 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500  ",
+              "optionClasses": "p-2 w-full text-sm text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100    dark:focus:bg-neutral-800",
+              "optionTemplate": "<div class=\"flex justify-between items-center w-full\"><span data-title></span><span class=\"hidden hs-selected:block\"><svg class=\"flex-shrink-0 size-3.5 text-gray-800 \" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
             }'
                                 class="hidden">
                                 <option value="0">فروردین</option>
@@ -221,10 +221,10 @@
               "placeholder": "Select year",
               "viewport": "#single-datepicker-tab-preview-datepicker",
               "toggleTag": "<button type=\"button\"></button>",
-              "toggleClasses": "hs-select-disabled:pointer-events-none hs-select-disabled:opacity-50 relative flex text-nowrap w-full cursor-pointer text-start font-medium text-gray-800 hover:text-gray-600 focus:outline-none focus:text-gray-600 before:absolute before:inset-0 before:z-[1] dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-              "dropdownClasses": "mt-2 z-50 w-20 max-h-72 p-1 space-y-0.5 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 dark:bg-neutral-900 dark:border-neutral-700",
-              "optionClasses": "p-2 w-full text-sm text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:text-neutral-200 dark:focus:bg-neutral-800",
-              "optionTemplate": "<div class=\"flex justify-between items-center w-full\"><span data-title></span><span class=\"hidden hs-selected:block\"><svg class=\"flex-shrink-0 size-3.5 text-gray-800 dark:text-neutral-200\" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
+              "toggleClasses": "hs-select-disabled:pointer-events-none hs-select-disabled:opacity-50 relative flex text-nowrap w-full cursor-pointer text-start font-medium text-gray-800 hover:text-gray-600 focus:outline-none focus:text-gray-600 before:absolute before:inset-0 before:z-[1]   ",
+              "dropdownClasses": "mt-2 z-50 w-20 max-h-72 p-1 space-y-0.5 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500  ",
+              "optionClasses": "p-2 w-full text-sm text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100    dark:focus:bg-neutral-800",
+              "optionTemplate": "<div class=\"flex justify-between items-center w-full\"><span data-title></span><span class=\"hidden hs-selected:block\"><svg class=\"flex-shrink-0 size-3.5 text-gray-800 \" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
             }'
                                 class="hidden">
                                 <option selected="">2023</option>
@@ -247,25 +247,25 @@
 
                 <!-- Weeks -->
                 <div class="flex place-content-around pb-1.5">
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         ش
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         ی
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         د
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         س
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         چ
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         پ
                     </span>
-                    <span class="m-px w-10 block text-center text-sm text-gray-500 dark:text-neutral-500">
+                    <span class="m-px w-10 block text-center text-sm text-gray-500 ">
                         ج
                     </span>
                 </div>
@@ -275,48 +275,48 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             26
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             27
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             28
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             29
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             30
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             1
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             2
                         </button>
                     </div>
@@ -327,43 +327,43 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             3
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             4
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             5
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             6
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             7
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             8
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             9
                         </button>
                     </div>
@@ -374,43 +374,43 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             10
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             11
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             12
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             13
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             14
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             15
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             16
                         </button>
                     </div>
@@ -421,43 +421,43 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             17
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             18
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             19
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center bg-blue-600 border border-transparent text-sm font-medium text-white hover:border-blue-600 rounded-full dark:bg-blue-500 disabled:text-gray-300 disabled:pointer-events-none dark:hover:border-blue-500">
+                            class="m-px size-8 flex justify-center items-center bg-blue-600 border border-transparent text-sm font-medium text-white hover:border-blue-600 rounded-full  disabled:text-gray-300 disabled:pointer-events-none ">
                             20
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             21
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             22
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             23
                         </button>
                     </div>
@@ -468,43 +468,43 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             24
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             25
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             26
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             27
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             28
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             29
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             30
                         </button>
                     </div>
@@ -515,48 +515,48 @@
                 <div class="flex place-content-around">
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600">
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   ">
                             31
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             1
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             2
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             3
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             4
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             5
                         </button>
                     </div>
                     <div>
                         <button type="button"
-                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none dark:text-neutral-200 dark:hover:border-neutral-500 dark:disabled:text-neutral-600"
+                            class="m-px size-8 flex justify-center items-center border border-transparent text-sm text-gray-800 hover:border-blue-600 hover:text-blue-600 rounded-full disabled:text-gray-300 disabled:pointer-events-none   "
                             disabled="">
                             6
                         </button>
@@ -574,11 +574,11 @@
 
 
             <div
-                class=" w-full mx-auto border-gray-300  border-t py-4 md:py-6 md:flex md:items-center md:justify-between dark:bg-gray-800">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© ۱۴۰۳ <a
+                class=" w-full mx-auto border-gray-300  border-t py-4 md:py-6 md:flex md:items-center md:justify-between ">
+                <span class="text-sm text-gray-500 sm:text-center ">© ۱۴۰۳ <a
                         href="http://hudder.ir/" class="hover:underline">ستارا</a>. تمامی حقوق محفوظ است
                 </span>
-                <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500  sm:mt-0">
                     <li>
                         contact@setara.style
                         {{-- <a href="#" class="mr-4 hover:underline md:ml-6 ">About</a> --}}
