@@ -25,7 +25,7 @@
             <div class="container max-w-6xl flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://hudder.ir/" class="flex items-center">
                     {{-- <img src="{{ asset('images/frontpage/logo.webp') }}" class="h-5 ml-3 sm:h-9" alt="Hudder Logo"> --}}
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white ">ست‌آرا</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white ">ستارا</span>
                 </a>
                 <div class="flex md:order-2 gap-2">
                     <a href="https://hub.hudder.ir" target="_blank"
@@ -111,7 +111,7 @@
                 <div class="flex flex-column items-center justify-between h-full">
 
                     <div class="w-1/3">
-                        <img src="{{ asset('images/stylists/mohammad.jpg') }}" class="w-full object-cover rounded"
+                        <img src="{{ asset('images/stylists/faride.jpg') }}" class="w-full object-cover rounded"
                             alt="">
                     </div>
 
@@ -119,7 +119,7 @@
                         <div>
                             <h5
                                 class="flex font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-                                محمد ذکایی
+                                فریده فاطمی
 
                                 <span
                                     class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
@@ -576,7 +576,7 @@
             <div
                 class=" w-full mx-auto border-gray-300  border-t py-4 md:py-6 md:flex md:items-center md:justify-between dark:bg-gray-800">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© ۱۴۰۳ <a
-                        href="http://hudder.ir/" class="hover:underline">ست‌آرا</a>. تمامی حقوق محفوظ است
+                        href="http://hudder.ir/" class="hover:underline">ستارا</a>. تمامی حقوق محفوظ است
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
