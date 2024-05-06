@@ -23,19 +23,19 @@
         <nav
             class="bg-white px-2 sm:px-4 py-2.5 w-full  fixed z-20 top-0 left-0 border-gray-200 ">
             <div class="container max-w-6xl flex flex-wrap items-center justify-between mx-auto">
-                <a href="https://hudder.ir/" class="flex items-center">
-                    {{-- <img src="{{ asset('images/frontpage/logo.webp') }}" class="h-5 ml-3 sm:h-9" alt="Hudder Logo"> --}}
+                <a href="https://setara.app/" class="flex items-center">
+                    {{-- <img src="{{ asset('images/frontpage/logo.webp') }}" class="h-5 ml-3 sm:h-9" alt="Setara Logo"> --}}
                     <span class="self-center text-xl font-semibold whitespace-nowrap ">ستارا</span>
                 </a>
                 <div class="flex md:order-2 gap-2">
-                    <a href="https://hub.hudder.ir" target="_blank"
+                    <a href="https://setara.app" target="_blank"
                         class="hidden md:block text-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">ورود</a>
                     <button type="button"
                         class="hidden md:block text-gray-700 border-2 border-gray-700  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">تماس
                         با فروش</button>
 
                     <a href="#live-preview"
-                        class=" bg-yellow-300 text-gray-800 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">پیش‌نمایش</a>
+                        class=" bg-purple-300 text-gray-800 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0   ">پیش‌نمایش</a>
                     <button data-collapse-toggle="navbar-sticky" type="button"
                         class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   "
                         aria-controls="navbar-sticky" aria-expanded="false">
@@ -81,7 +81,7 @@
                     <div class="p-6">
                         <div class="">
                             <div class=" text-gray-600  text-sm">
-                                <h2 class="font-bold text-4xl text-black leading-relaxed bg-yellow-300 rounded p-3">
+                                <h2 class="font-bold text-4xl text-black leading-relaxed bg-purple-300 rounded p-3">
                                     استایلیست شخصی شما، در همین نزدیکی‌ها
                                 </h2>
 
@@ -102,20 +102,20 @@
             </div>
         </div>
 
-        <div class="mt-12 bg-yellow-300 md:mt-0  mx-auto grid grid-cols-5 gap-1  sm:items-center p-10 md:p-20"
+        <div class="mt-12 bg-purple-300 md:mt-0  mx-auto grid grid-cols-1 lg:grid-cols-5 gap-1  sm:items-center p-10 md:p-20"
             id="live-preview">
 
             <div
                 class="drop-shadow-md p-6 relative h-100 flex col-span-2 flex-col rounded-xl h-full items-center bg-white bg-clip-border text-gray-700 shadow-lg mx-auto">
 
-                <div class="flex flex-column items-center justify-between h-full">
+                <div class="flex flex-col lg:flex-row items-center justify-between h-full">
 
                     <div class="w-1/3">
-                        <img src="{{ asset('images/stylists/faride.jpg') }}" class="w-full object-cover rounded"
+                        <img src="{{ asset('images/stylists/faride.jpg') }}" class="w-full object-cover rounded-full lg:rounded mb-2 lg:mb-0"
                             alt="">
                     </div>
 
-                    <div class="w-2/3 pr-2 flex flex-col place-content-around h-full">
+                    <div class="w-full lg:w-2/3 lg:pr-2 flex flex-col place-content-around h-full">
                         <div>
                             <h5
                                 class="flex font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
@@ -124,7 +124,7 @@
                                 <span
                                     class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                        class="-mt-0.5 h-5 w-5 text-yellow-700">
+                                        class="-mt-0.5 h-5 w-5 text-purple-700">
                                         <path fill-rule="evenodd"
                                             d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
                                             clip-rule="evenodd"></path>
@@ -175,7 +175,7 @@
 
             {{-- Start of datepicker --}}
             <!-- Calendar -->
-            <div class="space-y-0.5 drop-shadow-md bg-white rounded-xl h-full">
+            <div class="space-y-0.5 drop-shadow-md bg-white rounded-xl h-full hidden lg:block">
                 <!-- Months -->
                 <div class="grid grid-cols-5 items-center gap-x-3 mx-1.5 pb-3">
                     <!-- Prev Button -->
@@ -574,9 +574,9 @@
 
 
             <div
-                class=" w-full mx-auto border-gray-300  border-t py-4 md:py-6 md:flex md:items-center md:justify-between ">
+                class=" w-full mx-auto border-gray-300  border-t px-2 py-4 md:py-6 md:flex md:items-center md:justify-between ">
                 <span class="text-sm text-gray-500 sm:text-center ">© ۱۴۰۳ <a
-                        href="http://hudder.ir/" class="hover:underline">ستارا</a>. تمامی حقوق محفوظ است
+                        href="http://setara.app/" class="hover:underline">ستارا</a>. تمامی حقوق محفوظ است
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500  sm:mt-0">
                     <li>
